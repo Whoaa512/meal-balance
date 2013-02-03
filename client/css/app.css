@@ -1,1 +1,105 @@
-/* CSS declarations go here */
+
+html, body {
+  font-family: 'Galindo', cursive;
+  background-color: white;
+  height: 100%;
+}
+/*#wrap {
+  min-height: 100%;
+  background-image: url("/greenretrobackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}*/
+
+#main {
+  overflow:auto;
+  padding-bottom:50px; /* this needs to be bigger than footer height*/
+}
+
+#footer {
+  background-color: #FAFAFA;
+  position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:15px;
+  border-top: 1px solid #D4D4D4;
+}
+
+.container {
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.inner {
+  padding: 0 100px;
+}
+
+.logo {
+  background-image: url("/img/goodeatsinline.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 125px;
+  width: 740px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.slogan {
+  font-family:'Lobster Two', cursive;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.woman {
+  background-image: url("/img/woman.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  margin-left: 25px;
+  margin-right: 50px;
+  float: right;
+}
+
+.formFields {
+  margin-top: 100px;
+}
+
+.recipe {
+  height: 200px;
+  width: 575px;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.instructions {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.search-label {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+#search {
+  margin: 20px;
+}
+
+/*
+ * Helper classes
+ */
+.center {
+  text-align: center;
+}
+
+
+
